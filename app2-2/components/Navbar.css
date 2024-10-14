@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    color: white;
+  }
+.navbar .n-logo{
+    margin-right: 980px;
+}
+.navbar a{
+    margin-left:100px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+  
+}

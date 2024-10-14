@@ -1,0 +1,36 @@
+/* Make the app container take the full height of the viewport */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Allow the main content to grow */
+.content {
+  flex: 1;
+  padding: 1em;
+}
+
+/* Navbar and Footer styling for full-width */
+.navbar, .footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+.user-card {
+  background-color: WHITE !important;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  min-height: 150px;
+}
